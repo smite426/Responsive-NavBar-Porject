@@ -1,0 +1,13 @@
+body {
+    font-size: 125%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
