@@ -2,7 +2,7 @@ body {
     font-size: 125%;
 }
 
-nav ul {
+nav ul#main {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,20 +14,33 @@ nav a {
     text-decoration: none;
     display: block;
     padding: 0.5em 1em ;
-    background-color: rgb(216, 216, 216);
-    color: brown;
+    background-color: rgb(211, 169, 153);
+    color: rgb(33, 29, 30);
 }
 nav a:hover {
-    background-color: orange;
-    color: black;
+    background-color: rgb(165, 174, 183);
+    color: rgb(87, 80, 80);
 }
 
 a:active {
-    color: purple;
+    color: rgb(243, 198, 115);
 }
 
 header, main, footer{
     width: 40em;
     max-width: 98%;
     margin: 0 auto;
+}
+
+body{
+    background-color: rgb(233, 230, 225);
+    color: rgb(33, 29, 30);
+}
+
+h1, h2, h3{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p, ol, ul{
+    font-family: 'Proza Libre', sans-serif;
 }
