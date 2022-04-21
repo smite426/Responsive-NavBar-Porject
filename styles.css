@@ -16,6 +16,7 @@ nav a {
     padding: 0.5em 1em ;
     background-color: rgb(211, 169, 153);
     color: rgb(33, 29, 30);
+    margin: 0 1px 0 0;
 }
 nav a:hover {
     background-color: rgb(165, 174, 183);
