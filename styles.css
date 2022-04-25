@@ -2,12 +2,12 @@ body {
     font-size: 125%;
 }
 
-nav ul#main {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 nav a {
@@ -42,6 +42,13 @@ h1, h2, h3{
     font-family: 'Cormorant Garamond', serif;
 }
 
-p, ol, ul{
+p, ol, ul#main{
     font-family: 'Proza Libre', sans-serif;
+}
+
+/* Layout for screens over 600px wide */
+@media only screen and (min-width: 600px) {
+    nav ul {
+        flex-direction: row;
+    }
 }
