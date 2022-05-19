@@ -4,21 +4,25 @@ body {
 /* The menu toggle*/
 #menu-toggle {
     width: 2em;
-    height: 1.5em;
-    background-color: #999999;
+    height: 2em;
     margin: 0.6em auto 0.6em 0;
     border-radius: 2em;
     transition: all 0.3s;
 }
-/*
+
+#menu-toggle:hover {
+    background-color: #99999973;
+}
+
 #menu-toggle div {
-    width: 90%;
-    height: 5px;
+    width: 50%;
+    height: 3px;
     background-color: #101010;
     margin: 4px auto;
+    transform: translateY(.56em);
     transition: all 0.3s;
 }
-*/
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -29,7 +33,7 @@ nav ul {
     opacity: 0;
 }
 
-nav ul.open{
+nav.open ul {
     opacity: 1;
     height: auto;
 }
@@ -82,6 +86,8 @@ p, ol, ul#main{
 @media only screen and (min-width: 600px) {
     nav ul {
         flex-direction: row;
+        height: auto;
+        opacity: 1;
     }
     #menu-toggle, #menu-toggle div {
         opacity: 0;
