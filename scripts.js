@@ -16,6 +16,7 @@ window.onload = function() {
         }
         else {
             globalNavbar.classList.add("open");
+            toggle.classList.add("open");
         }
     }
 
