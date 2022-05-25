@@ -13,6 +13,7 @@ window.onload = function() {
     toggle.onclick = function() {
         if (globalNavbar.classList.contains("open")){
             globalNavbar.classList.remove("open");
+            toggle.classList.remove("open");
         }
         else {
             globalNavbar.classList.add("open");
@@ -32,7 +33,7 @@ window.onresize = function() {
         toggle.classList.add("open");
     }
     else {
-        globalNavbar.classList.remove("open")
+        globalNavbar.classList.remove("open");
         toggle.classList.remove("open");
     }
 }

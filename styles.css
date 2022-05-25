@@ -23,6 +23,18 @@ body {
     transition: all 0.3s;
 }
 
+#menu-toggle.open div.one {
+    transform: translateY(18px) rotate(.125turn);
+}
+
+#menu-toggle.open div.two{
+    opacity: 0;
+}
+
+#menu-toggle.open div.three {
+    transform: translateY(3.89px) rotate(-.125turn);
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
