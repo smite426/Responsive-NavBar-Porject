@@ -89,14 +89,6 @@ p, ol, ul#main{
     font-family: 'Proza Libre', sans-serif;
 }
 
-.materials-symbols-outlined {
-    font-variation-settings: 
-    'FILL' 0,
-    'wght' 400'
-    'GRAD' 0,
-    'opsz' 48
-}
-
 /* Layout for screens over 600px wide */
 @media only screen and (min-width: 600px) {
     nav ul {
